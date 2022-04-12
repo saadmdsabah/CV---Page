@@ -1,18 +1,24 @@
 body {
     text-align: center;
+    margin: 0;
 }
 
 h1 {
     font-size: 90px;
+    color: #66bfbf;
     font-family: 'Sacramento', serif;
+    margin-bottom: 0;
 }
 
 .my-photo{
     margin-top: 30px;
 }
 
-h4 {
+h2 {
+    margin-top: 0;
+    color: #66bfbf;
     font-family: 'Merriweather', serif;
+    font-weight: normal;
 }
 
 .web-photo {
@@ -32,15 +38,15 @@ h4 {
 
 .Top-container {
     font-style: italic;
-    background-color: #C3E5AE;
-    padding: 20px;
+    background-color: #B5EAEA;
+    padding: 30px;
 }
 
 p {
     font-size: large;
 }
 .hLine {
-    border: solid 1px;
+    border: solid;
 }
 
 .Education {
@@ -49,4 +55,12 @@ p {
 }
 .education{
     font-weight: bold;
+}
+.profile {
+    width: 50%;
+    margin: auto;
+}
+.skills {
+    width: 50%;
+    margin: auto;
 }
