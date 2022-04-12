@@ -1,4 +1,5 @@
 body {
+    color: #40514E;
     text-align: center;
     margin: 0;
 }
@@ -12,6 +13,7 @@ h1 {
 
 .my-photo{
     margin-top: 30px;
+    width: 30%;
 }
 
 h2 {
@@ -19,10 +21,6 @@ h2 {
     color: #66bfbf;
     font-family: 'Merriweather', serif;
     font-weight: normal;
-}
-
-.web-photo {
-    size-adjust: 10%;
 }
 
 .cloud1 {
@@ -39,16 +37,12 @@ h2 {
 .Top-container {
     font-style: italic;
     background-color: #B5EAEA;
-    padding: 30px;
+    padding: 35px;
 }
 
 p {
     font-size: large;
 }
-.hLine {
-    border: solid;
-}
-
 .Education {
     font-size: large;
     font-weight: bold;
@@ -60,7 +54,58 @@ p {
     width: 50%;
     margin: auto;
 }
-.skills {
+
+
+.Certificate {
+    text-decoration: none;
+    color: #E78EA9;
+}
+
+.LinkedIn {
+    text-decoration: none;
+    color: #E78EA9;
+}
+
+.bottom-container {
+    background-color: #B5EAEA;
+    color: #40514E;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.skill-row-1 {
     width: 50%;
-    margin: auto;
+    margin: 50px auto 200px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row-2 {
+    width: 50%;
+    margin: 0px auto 200px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.web-photo {
+    width: 25%;
+    float: left;
+}
+
+.Hobbies-1 {
+    width: 25%;
+    float: right;
+}
+
+.after-profile {
+    border-top: 5px dotted #9FB4FF;
+    width: 100px;
+    margin-top: 65px;
+}
+
+.after-row1 {
+    border-top: 5px dotted #9FB4FF;
+    width: 100px;
+    margin-top: 65px;
+    margin-bottom: 65px;
 }
