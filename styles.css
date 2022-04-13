@@ -46,9 +46,14 @@ p {
 .Education {
     font-size: large;
     font-weight: bold;
+    font-size: large;
+}
+.Email {
+    font-size: large;
 }
 .education{
     font-weight: bold;
+    font-size: large;
 }
 .profile {
     width: 50%;
@@ -60,29 +65,36 @@ p {
     text-decoration: none;
     color: #E78EA9;
 }
+.Certificate:hover {
+    color: #8FBDD3;
+}
 
 .LinkedIn {
     text-decoration: none;
     color: #E78EA9;
+    font-size: large;
+}
+.LinkedIn:hover {
+    color: #8FBDD3;
 }
 
 .bottom-container {
     background-color: #B5EAEA;
     color: #40514E;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .skill-row-1 {
     width: 50%;
-    margin: 50px auto 200px auto;
+    margin: 10px auto 120px auto;
     text-align: left;
     line-height: 2;
 }
 
 .skill-row-2 {
     width: 50%;
-    margin: 0px auto 200px auto;
+    margin: 0px auto 180px auto;
     text-align: left;
     line-height: 2;
 }
@@ -108,4 +120,7 @@ p {
     width: 100px;
     margin-top: 65px;
     margin-bottom: 65px;
+}
+.Best {
+    font-weight: bold;
 }
